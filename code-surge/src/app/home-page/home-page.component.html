@@ -1,0 +1,19 @@
+<div class="container">
+  <mat-grid-list cols="1" rowHeight="1:1">
+    <app-header-global-app></app-header-global-app>
+    <app-navbar-main></app-navbar-main>
+    <app-main-about-us *ngIf="currentPage === 'about-us'"></app-main-about-us>
+    <app-detail-viaggi
+      *ngIf="currentPage === 'desc-viaggi'"
+    ></app-detail-viaggi>
+    <app-contattaci-detail
+      *ngIf="currentPage === 'desc-contattaci'"
+    ></app-contattaci-detail>
+    <app-area-personale
+      *ngIf="currentPage === 'desc-area-personale'"
+    ></app-area-personale>
+  </mat-grid-list>
+</div>
+<app-loading-spinner></app-loading-spinner>
+
+<router-outlet></router-outlet>

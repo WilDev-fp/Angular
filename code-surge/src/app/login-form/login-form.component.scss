@@ -1,0 +1,29 @@
+.container {
+  
+
+  .main-contenitore {
+    .centra-contenuto {
+
+      .login-card {
+        max-width: 25em;
+        padding: 1em;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+
+        mat-card-title {
+          margin: 1rem 0;
+        }
+      }
+
+      .full-width {
+        width: 100%;
+      }
+
+      .button-group {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+      }
+    }
+  }
+
+}
