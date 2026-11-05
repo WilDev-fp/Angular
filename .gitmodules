@@ -1,0 +1,3 @@
+[submodule "HomeFileManagement"]
+	path = HomeFileManagement
+	url = https://github.com/WilDev-fp/HomeFileManagement.git
