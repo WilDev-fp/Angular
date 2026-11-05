@@ -1,3 +1,6 @@
 [submodule "HomeFileManagement"]
 	path = HomeFileManagement
 	url = https://github.com/WilDev-fp/HomeFileManagement.git
+[submodule "code-surge"]
+	path = code-surge
+	url = https://github.com/WilDev-fp/Code-surge.git
